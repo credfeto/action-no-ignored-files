@@ -1,5 +1,5 @@
-name: 'Case Sensitivity Checker'
-description: 'Check if there are any files or folders with same name differing only by case'
+name: 'Ignored files Checker'
+description: 'Check if there are any files commited that are prohibited by .gitignore'
 branding:
   icon: 'git-merge'
   color: 'gray-dark'
