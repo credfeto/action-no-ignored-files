@@ -1,5 +1,5 @@
 FROM alpine:3.15.0
 
-COPY checkcase /checkcase
+COPY checkignored /checkignored
 
 ENTRYPOINT ["/checkignored"]
