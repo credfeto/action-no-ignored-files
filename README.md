@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
       # Run the case checker action
-      - name: Look for 
+      - name: Look for ignored files
         uses: credfeto/action-no-ignored-files@master
 ```
 
