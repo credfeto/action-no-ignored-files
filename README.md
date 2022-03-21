@@ -1,4 +1,4 @@
-# No Ignored fukes
+# No Ignored files
 
 This action finds any files that should have been ignored.
 
@@ -23,4 +23,4 @@ jobs:
         uses: credfeto/action-no-ignored-files@master
 ```
 
-On each push, it will now run the case sensitivity checker
+On each push, it will now run the ignored files check
