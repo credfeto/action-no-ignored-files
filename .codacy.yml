@@ -1,0 +1,4 @@
+---
+engines:
+  remark-lint:
+    remark-lint-no-shortcut-reference-link: false
