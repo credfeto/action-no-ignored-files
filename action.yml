@@ -1,8 +1,10 @@
 name: 'Ignored files Checker'
-description: 'Check if there are any files commited that are prohibited by .gitignore'
+description: 'Check if there are any files committed that are prohibited by .gitignore'
 branding:
   icon: 'git-merge'
   color: 'gray-dark'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
+  steps:
+    - run: $GITHUB_ACTION_PATH/checkignored
+      shell: bash
