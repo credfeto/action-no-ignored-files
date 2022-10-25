@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
-      # Run the case checker action
+      # Run the ignored files checker action
       - name: Look for ignored files
         uses: credfeto/action-no-ignored-files@v1.1.0
 ```
