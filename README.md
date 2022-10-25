@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
       # Run the case checker action
       - name: Look for ignored files
-        uses: credfeto/action-no-ignored-files@v1.0.0
+        uses: credfeto/action-no-ignored-files@v1.1.0
 ```
 
 On each push, it will now run the ignored files check
