@@ -2,7 +2,7 @@
 set -eu
 
 if
-    git ls-files | grep -v server\.pfx | git check-ignore --stdin -v --no-index | awk '!a[$0] {print a[$0] RS $0; exit 1}';
+    git ls-files | grep -v server\.pfx | grep -v \.gitignore | git check-ignore --stdin -v --no-index | awk '!a[$0] {print a[$0] RS $0; exit 1}';
 then
     printf "\033[0;32mNo ignored files\033[0m\n"
     exit 0;

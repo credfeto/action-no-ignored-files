@@ -8,6 +8,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ## [Unreleased]
 ### Added
 ### Fixed
+- Excluded .gitignore files that are in ignore folders
 ### Changed
 ### Removed
 ### Deployment Changes
