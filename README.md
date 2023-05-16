@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     name: find-ignored-files
     steps:
-      # Checkout the source code so we have some files to look at.
+      # Checkout the source code so there are some files to look at.
       - uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
@@ -24,3 +24,14 @@ jobs:
 ```
 
 On each push, it will now run the ignored files check
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
